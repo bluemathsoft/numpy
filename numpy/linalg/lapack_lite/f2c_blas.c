@@ -4040,7 +4040,7 @@ L20:
     complex q__1;
 
     /* Builtin functions */
-    double r_imag(complex *);
+    float r_imag(complex *);
 
     /* Local variables */
     static integer i__, nincx;
@@ -11126,7 +11126,7 @@ doublereal scabs1_(complex *z__)
     real ret_val, r__1, r__2;
 
     /* Builtin functions */
-    double r_imag(complex *);
+    float r_imag(complex *);
 
 
 /*
@@ -11149,7 +11149,7 @@ doublereal scasum_(integer *n, complex *cx, integer *incx)
     real ret_val, r__1, r__2;
 
     /* Builtin functions */
-    double r_imag(complex *);
+    float r_imag(complex *);
 
     /* Local variables */
     static integer i__, nincx;
@@ -11221,7 +11221,8 @@ doublereal scnrm2_(integer *n, complex *x, integer *incx)
     real ret_val, r__1;
 
     /* Builtin functions */
-    double r_imag(complex *), sqrt(doublereal);
+    float r_imag(complex *);
+    double sqrt(doublereal);
 
     /* Local variables */
     static integer ix;
